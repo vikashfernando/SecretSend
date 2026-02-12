@@ -1,6 +1,8 @@
 import pywhatkit as pwk
 
-phone_number="+094701000011"
-message="hi helooww"
+phone_number = "+94701000011"
+message = "hi helloww"
 
-pwk.sendwhatmsg(phone_number,message)
+pwk.sendwhatmsg_instantly(phone_number, message, wait_time=15)
+
+
